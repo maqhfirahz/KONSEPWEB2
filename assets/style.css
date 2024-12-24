@@ -1,0 +1,115 @@
+/* Mengatur tampilan dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8d8d8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #e65757;
+}
+
+/* Tambah Pengguna Baru button */
+.btn-add {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Form Pencarian */
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: #cd3f3f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c66666;
+}
+
+/* Tabel */
+.table-container {
+    overflow-x: auto; /* Responsif untuk perangkat kecil */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Tombol Edit dan Hapus */
+.btn-edit, .btn-delete {
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.btn-edit {
+    background-color: #d43131;
+}
+
+.btn-edit:hover {
+    background-color: #d45555;
+}
+
+.btn-delete {
+    background-color: #e87731;
+}
+
+.btn-delete:hover {
+    background-color: #e18956;
+}
+
